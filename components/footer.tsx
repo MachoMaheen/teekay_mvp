@@ -78,6 +78,7 @@ const Footer: NextPage = () => {
                             className="flex-1 flex flex-col items-start justify-start pt-[3.009999990463257px] px-0.1 pb-[3.5999999046325684px] box-border min-w-[96px] text-mini-4 text-iteck-gatsbyvercelapp-dusty-gray-60 font-iteck-gatsbyvercelapp-inter-regular-144 transparent-input"
                             type="text"
                             placeholder="Email address"
+                            style={{ background: 'transparent' }}
                         />
                         <button className="cursor-pointer [border:none] py-px px-1.5 bg-[transparent] flex flex-col items-center justify-start">
                           <div className="relative text-mini-4 leading-[21.6px] font-iteck-gatsbyvercelapp-inter-regular-144 text-iteck-gatsbyvercelapp-cornflower-blue text-center">

@@ -97,7 +97,6 @@ const Header: NextPage = () => {
             >
               Home
             </a>
-          
           </div>
           {/* <div
             className="flex flex-row items-end justify-start pt-0 px-0 pb-px gap-[3px] cursor-pointer"
@@ -109,11 +108,19 @@ const Header: NextPage = () => {
           <div onClick={() => scrolltoHash("about")}>
             <b className="relative leading-[21px] capitalize">about</b>
           </div>
+          <div onClick={() => scrolltoHash("services")}>
+            <b className="relative leading-[21px] capitalize">services</b>
+          </div>
+          <div onClick={() => scrolltoHash("partners")}>
+            <b className="relative leading-[21px] capitalize">partners</b>
+          </div>
+          {/* <div onClick={() => scrolltoHash("resources")}>
+            <b className="relative leading-[21px] capitalize">resources</b>
+          </div> */}
           {/* <b className="relative leading-[21px] capitalize">blog</b> */}
           <div onClick={() => scrolltoHash("contact")}>
             <b className="relative leading-[21px] capitalize">contact</b>
           </div>
-         
         </div>
         {/* <div className="flex flex-col items-start justify-start">
           <div className="flex flex-row items-center justify-start">
